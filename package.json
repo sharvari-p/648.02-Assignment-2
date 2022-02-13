@@ -1,0 +1,22 @@
+{
+	"name": "648.02-assignment-2",
+	"version": "1.0.0",
+	"description": "",
+	"main": "server/server.js",
+	"scripts": {
+		"start": "node server/server.js",
+		"watch": "babel --presets react --out-dir public --watch src",
+		"compile": "babel --presets react --out-dir public",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"express": "^4.17.1",
+		"react": "16.12.0"
+	},
+	"devDependencies": {
+		"babel-cli": "^6.26.0",
+		"babel-preset-react": "^6.24.1"
+	}
+}
